@@ -1,0 +1,402 @@
+
+/*==============================
+  Common styles
+==============================*/
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+.btn{
+      padding: 10px 40px;
+    border-radius: 25px;
+}
+.btn-primary{
+  background: #f7ce3e;
+  border: 1px solid #f7ce3e;
+}
+.btn-primary:hover{
+  background: #f8c923;
+  border: 1px solid #f7ce3e;
+}
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+button:focus {
+  outline: none;
+}
+a {
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+
+ul > li{
+  color:black;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.mr-100 {
+    margin-right: 100px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.ml-100 {
+    margin-left: 100px;
+}
+
+
+.pt-10{
+  padding-top: 10px
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.pr-50 {
+    padding-right: 50px;
+}
+
+.pr-60{
+    padding-right: 60px;
+}
+
+.pr-100 {
+    padding-right: 100px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.pl-50 {
+    padding-left: 50px;
+}
+
+.pl-100 {
+    padding-left: 100px;
+}
+
+.no-margin{
+    margin:0 !important;
+}
+
+.no-padding{
+    padding:0 !important;
+}
+
+
+section{
+  padding: 60px 0;
+}
+
+.section-heading{
+  margin-bottom: 60px;
+}
+
+.section-title {
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.line-title {
+    width: 100px;
+    height: 2px;
+    background-color: #13b5ea;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    margin-left: calc(48% - 25px);
+}
+
+.line-title-left {
+    width: 100%;
+    height: 2px;
+    background-color: #13b5ea;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+
+/* Helper classes */
+
+
+.form-center{
+    width: 380px;
+}
+
+.font-bold{
+  font-weight: bold;
+}
+
+.extra-bold{
+  font-weight: 900;
+}
+
+.bottom-line {
+    border: 1px solid gray;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin: 0 auto;
+    width: 64%;
+}
+
+
+
+/*-------------------------------------------------------------------------------------
+    Image Banner
+---------------------------------------------------------------------------------------*/
+
+#main-banner {
+    background-image: url('../img/slide3.jpg');
+    background-position: top;
+}
+
+.caption-content {
+    padding: 8% 10% 9%;
+}
+
+.caption-content p{
+    margin: auto;
+    max-width: 700px;
+    line-height: 1.6;
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.color-white {
+    color: #fff;
+}
+.tbl-cell h1 {
+    font-size: 55px;
+    line-height: 70px;
+}
+
+/*==============================
+  Section
+==============================*/
+.section {
+  position: relative;
+  padding: 40px 0;
+}
+/*==============================
+  Demo
+==============================*/
+.demo__box {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px 0px rgba(49, 48, 53, 0.2);  
+}
+.demo__img {
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  background-color: #212121;
+}
+.demo__img:before {
+  content: 'Coming soon';
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -moz-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+}
+.demo__img img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 100%;
+  -webkit-transform: translateY(-351px);
+  -moz-transform: translateY(-351px);
+  transform: translateY(-351px);
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.demo__img:hover img {
+  -webkit-transition: 6s linear;
+  -moz-transition: 6s linear;
+  transition: 6s linear;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.demo__title {
+  color: #303030;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .demo__box {
+    margin-top: 50px;
+  }
+  .demo__img {
+    height: 300px;
+  }
+  .demo__img img {
+    -webkit-transform: translateY(-300px);
+    -moz-transform: translateY(-300px);
+    transform: translateY(-300px);
+  }
+}
+@media (min-width: 1200px) {
+  .demo__img {
+    height: 350px;
+  }
+  .demo__img img {
+    -webkit-transform: translateY(-351px);
+    -moz-transform: translateY(-351px);
+    transform: translateY(-351px);
+  }
+  .demo__img:hover img {
+    -webkit-transition: 8s linear;
+    -moz-transition: 8s linear;
+    transition: 8s linear;
+  }
+}

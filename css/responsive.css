@@ -1,0 +1,203 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 576px) { 
+    h1 {
+        font-size: 44px;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .header-social{
+        display: none;
+    }
+    .btn{
+        padding: 7px 30px;
+        font-size: 14px;
+    }
+    .caption-content h1{
+        font-size: 44px;
+    }
+    .heading h2 {
+        font-size:30px;
+    }
+     .header-contact-info ul li{
+        font-size: 13px;
+    }
+    .header-social-icons{
+        display: none;
+    }
+    .about-img{
+        margin-bottom: 30px;
+    }
+    .why-us-img{
+        margin-top: 30px;
+    }
+    .contact-now-button {
+    }
+    .footer-links{
+        padding-left: 0;
+    }
+
+    .carousel-caption{
+        display: none !important;
+    }
+
+    .caption-content h1 {
+    font-size: 38px;
+    }
+
+   .caption-content p {
+    font-size: 16px;
+   }
+
+   .serviceBox .title {
+    font-size: 20px;
+    }
+
+    .pricingTable .title {
+    font-size: 20px;
+    }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .header-social{
+        display: none;
+    }
+    .heading h2 {
+        font-size:32px;
+    }
+    .about-img{
+        margin-bottom: 30px;
+    }
+    .why-us-img{
+        margin-top: 30px;
+    }
+    .header-social-icons{
+        display: none;
+    }
+    .contact-now-button {
+    }
+    .footer-links{
+        padding-left: 0;
+    }
+
+    .carousel-caption{
+        bottom: 30px !important;
+    }
+
+    .carousel-caption h1{
+        font-size: 30px;
+        margin-bottom: 0px !important;
+    }
+
+    .carousel-caption p{
+        margin-top: 0px !important;
+    }
+
+     .carousel-caption a{
+        margin-top: 10px !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about-img{
+        margin-bottom: 30px;
+    }
+    .why-us-img{
+        margin-top: 30px;
+    }
+    .contact-now-button {
+    }
+
+    .carousel-caption{
+        bottom: 50px !important;
+    }
+
+    .carousel-caption h1{
+        font-size: 50px;
+    }
+
+    .carousel-caption p{
+        margin-top: 0px !important;
+    }
+
+     .carousel-caption a{
+        margin-top: 10px !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 990px){
+    .serviceBox .title{ font-size: 20px; }
+    .pricingTable{ margin-bottom: 20px; }
+    .counter{ margin-bottom: 100px; }
+    .our-team{ margin-bottom: 35px; }
+}
+@media only screen and (max-width: 767px){
+    .serviceBox{ margin: 0 0 30px 0; }
+}
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1245px) { 
+
+
+     .carousel-caption{
+        bottom: 40px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1200px){
+    .main-timeline .title{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .main-timeline .timeline:nth-child(2n) .title{ padding-right: 10px; }
+}
+@media only screen and (max-width: 990px){
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(2n){ padding: 10px 50px; }
+}
+@media only screen and (max-width: 767px){
+    .main-timeline:before{ left: 20px; }
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even),
+    .main-timeline .timeline:nth-child(odd){
+        width: 100%;
+        float: none;
+        padding: 10px 50px 10px 55px;
+    }
+    .main-timeline .timeline:before,
+    .main-timeline .timeline:nth-child(2n):before{ left: 5px; }
+    .main-timeline .timeline:nth-child(2n) .timeline-content{ text-align: left; }
+    .main-timeline .timeline:nth-child(2n) .title{
+        padding: 8px 55px 8px 10px;
+    }
+    .main-timeline .timeline:nth-child(2n) .title i{
+        left: auto;
+        right: 15px;
+    }
+}
+@media only screen and (max-width: 479px){
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(2n){ padding: 10px 0 10px 55px; }
+}
